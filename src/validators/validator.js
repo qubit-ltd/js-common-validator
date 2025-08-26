@@ -21,6 +21,9 @@ import validatePhoneField from './validate-phone-field';
 import validateTimeField from './validate-time-field';
 import validateTimestampField from './validate-timestamp-field';
 import validateUppercaseAlphaNumberField from './validate-uppercase-alphanumber-field';
+import validateUppercaseUnderscoreField from './validate-uppercase-underscore-field';
+import validateLowercaseHyphenField from './validate-lowercase-hyphen-field';
+import validateLowercaseUnderscoreField from './validate-lowercase-underscore-field';
 import validateUrlField from './validate-url-field';
 import validateUsernameField from './validate-username-field';
 
@@ -166,6 +169,30 @@ class Validator {
    * @see {@link validateUppercaseAlphaNumberField}
    */
   static upperAlphaNum = validateUppercaseAlphaNumberField;
+
+  /**
+   * Validates whether a field value is a string composed of uppercase letters and underscores.
+   *
+   * @static
+   * @see {@link validateUppercaseUnderscoreField}
+   */
+  static upperUnderscore = validateUppercaseUnderscoreField;
+
+  /**
+   * Validates whether a field value is a string composed of lowercase letters and hyphens.
+   *
+   * @static
+   * @see {@link validateLowercaseHyphenField}
+   */
+  static lowerHyphen = validateLowercaseHyphenField;
+
+  /**
+   * Validates whether a field value is a string composed of lowercase letters and underscores.
+   *
+   * @static
+   * @see {@link validateLowercaseUnderscoreField}
+   */
+  static lowerUnderscore = validateLowercaseUnderscoreField;
 
   /**
    * Validates whether a field value is a valid username.
