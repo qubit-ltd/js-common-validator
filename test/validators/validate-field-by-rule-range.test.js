@@ -163,10 +163,7 @@ describe('validateFieldByRule range validation branches', () => {
         label: '测试字段',
         start: 'a',
         end: 'z',
-        comparator: (lhs, rhs) => {
-          // 自定义比较器：按长度比较
-          return lhs.length - rhs.length;
-        },
+        comparator: (lhs, rhs) => lhs.length - rhs.length,
       };
       const expected = new ValidationResult(false, '测试字段必须在a和z之间');
       expect(validateLowercaseHyphenField(str, context)).toEqual(expected);
@@ -178,10 +175,7 @@ describe('validateFieldByRule range validation branches', () => {
         label: '测试字段',
         start: 'longer-value',
         end: 'even-longer-value',
-        comparator: (lhs, rhs) => {
-          // 自定义比较器：按长度比较
-          return lhs.length - rhs.length;
-        },
+        comparator: (lhs, rhs) => lhs.length - rhs.length,
       };
       const expected = new ValidationResult(false, '测试字段必须在longer-value和even-longer-value之间');
       expect(validateLowercaseHyphenField(str, context)).toEqual(expected);

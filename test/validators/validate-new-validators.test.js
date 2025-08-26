@@ -10,7 +10,7 @@ import { ValidationResult } from '@qubit-ltd/common-validation-rule';
 import {
   validateLowercaseHyphenField,
   validateLowercaseUnderscoreField,
-  validateUppercaseUnderscoreField
+  validateUppercaseUnderscoreField,
 } from '../../src';
 
 /**
