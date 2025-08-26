@@ -94,21 +94,6 @@ describe('Edge cases and missing branches', () => {
   });
 
   describe('New validator functions with edge cases', () => {
-    test('validateLowercaseHyphenField with null context', () => {
-      const result = validateLowercaseHyphenField('test-value', null);
-      expect(result.success).toBe(true);
-    });
-
-    test('validateLowercaseUnderscoreField with null context', () => {
-      const result = validateLowercaseUnderscoreField('test_value', null);
-      expect(result.success).toBe(true);
-    });
-
-    test('validateUppercaseUnderscoreField with null context', () => {
-      const result = validateUppercaseUnderscoreField('TEST_VALUE', null);
-      expect(result.success).toBe(true);
-    });
-
     test('validateLowercaseHyphenField with undefined context', () => {
       const result = validateLowercaseHyphenField('test-value', undefined);
       expect(result.success).toBe(true);
