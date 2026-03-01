@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { UrlRule } from '@qubit-ltd/common-validation-rule';
+import { UrlRule } from '@qubit-ltd/validation-rule';
 import validateFieldByRule from './validate-field-by-rule';
 
 /**

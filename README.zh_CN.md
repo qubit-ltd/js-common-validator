@@ -3,8 +3,8 @@
 [![npm package](https://img.shields.io/npm/v/@qubit-ltd/common-validator.svg)](https://npmjs.com/package/@qubit-ltd/common-validator)
 [![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![English](https://img.shields.io/badge/docs-English-blue.svg)](README.md)
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Haixing-Hu/js-common-validator/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/Haixing-Hu/js-common-validator/tree/master)
-[![Coverage Status](https://coveralls.io/repos/github/Haixing-Hu/js-common-validator/badge.svg?branch=master)](https://coveralls.io/github/Haixing-Hu/js-common-validator?branch=master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/qubit-ltd/js-common-validator/tree/master.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/qubit-ltd/js-common-validator/tree/master)
+[![Coverage Status](https://coveralls.io/repos/github/qubit-ltd/js-common-validator/badge.svg?branch=master)](https://coveralls.io/github/qubit-ltd/js-common-validator?branch=master)
 
 [@qubit-ltd/common-validator] 是一个JavaScript ES6库，提供常用字段验证器和验证规则。它为Web应用中常用的各种数据类型和字段提供了全面的验证功能。
 
@@ -238,4 +238,4 @@ console.log(result.description); // 关于邮件验证失败的详细信息
 有关更多详细信息，请参阅 [LICENSE](LICENSE) 文件。
 
 [@qubit-ltd/common-validator]: https://npmjs.com/package/@qubit-ltd/common-validator
-[GitHub仓库]: https://github.com/Haixing-Hu/js-common-validator 
+[GitHub仓库]: https://github.com/qubit-ltd/js-common-validator 

@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { IntegerRule } from '@qubit-ltd/common-validation-rule';
+import { IntegerRule } from '@qubit-ltd/validation-rule';
 import validateFieldByRule from './validate-field-by-rule';
 
 /**

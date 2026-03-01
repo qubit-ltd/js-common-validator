@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { LocalDateTimeRule } from '@qubit-ltd/common-validation-rule';
+import { LocalDateTimeRule } from '@qubit-ltd/validation-rule';
 import validateFieldByRule from './validate-field-by-rule';
 import compareDateTime from './impl/date-time-comparator';
 

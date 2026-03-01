@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { TimestampRule } from '@qubit-ltd/common-validation-rule';
+import { TimestampRule } from '@qubit-ltd/validation-rule';
 import compareTimestamp from './impl/timestamp-comparator';
 import validateFieldByRule from './validate-field-by-rule';
 

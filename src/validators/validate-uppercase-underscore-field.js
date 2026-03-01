@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { UppercaseUnderscoreRule } from '@qubit-ltd/common-validation-rule';
+import { UppercaseUnderscoreRule } from '@qubit-ltd/validation-rule';
 import validateFieldByRule from './validate-field-by-rule';
 
 /**

@@ -6,7 +6,7 @@
 //    All rights reserved.
 //
 ////////////////////////////////////////////////////////////////////////////////
-import { IntegerRule, BoolRule, LocalDateRule } from '@qubit-ltd/common-validation-rule';
+import { IntegerRule, BoolRule, LocalDateRule } from '@qubit-ltd/validation-rule';
 import withinRange from '../../../src/validators/impl/within-range';
 import dateComparator from '../../../src/validators/impl/date-comparator';
 
