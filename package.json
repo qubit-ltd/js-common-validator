@@ -1,6 +1,6 @@
 {
   "name": "@qubit-ltd/common-validator",
-  "version": "4.10.4",
+  "version": "4.10.5",
   "description": "A JavaScript ES6 library for common fields validators",
   "author": "Haixing Hu (starfish.hu@gmail.com)",
   "license": "Apache-2.0",
@@ -45,7 +45,7 @@
   },
   "peerDependencies": {
     "@babel/runtime": "^7.28.5",
-    "@qubit-ltd/common-decorator": "^3.10.8",
+    "@qubit-ltd/common-decorator": "^3.10.9",
     "@qubit-ltd/validation-rule": "1.8.2"
   },
   "devDependencies": {
@@ -57,7 +57,7 @@
     "@babel/runtime": "^7.28.5",
     "@jest/core": "^30.1.3",
     "@qubit-ltd/clone": "^1.13.7",
-    "@qubit-ltd/common-decorator": "^3.10.8",
+    "@qubit-ltd/common-decorator": "^3.10.9",
     "@qubit-ltd/common-util": "^5.4.10",
     "@qubit-ltd/eslint-config": "^2.0.2",
     "@qubit-ltd/jsdoc-theme": "^1.5.3",
